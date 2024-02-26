@@ -477,7 +477,6 @@ nav .navLine {
   }
   .home .form {
     width: 90%;
-    background-color: chocolate;
     margin: auto;
   }
   .home .form .padding1 {
@@ -583,29 +582,29 @@ nav .navLine {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    background-color: burlywood;
   }
   .home .form .ACR .adults {
+    width: 250px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-left: 0px;
     margin-bottom: 10px;
-    background-color: cadetblue;
   }
   .home .form .ACR .children {
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 0;
     margin-bottom: 10px;
-    background-color: cadetblue;
   }
   .home .form .ACR .rooms {
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 0;
-    background-color: cadetblue;
   }
   .home .form .message {
     width: 100%;
