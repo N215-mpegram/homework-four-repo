@@ -4,15 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   height: 100%;
-  width: auto;
-  background-color: darkkhaki;
-}
-
-body {
-  height: 100%;
-  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -264,21 +257,31 @@ nav .navLine {
   font-family: GSlight;
 }
 .home .form .cal {
-  padding-bottom: 20px;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .home .form .cal .cal-in {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 20px;
+}
+.home .form .cal .cal-in .label-in {
+  font-size: 18px;
+  font-family: GSlight;
+  width: 100px;
 }
 .home .form .cal .cal-in input {
   height: 58px;
-  width: 698px;
   border: 2px solid;
   border-color: #79ADDC;
   padding-left: 20px;
-  margin-left: 53px;
   font-size: 18px;
   font-family: GSlight;
+  justify-self: stretch;
+  margin-left: 46px;
 }
 .home .form .cal .cal-in .cal-box {
   width: 30px;
@@ -291,16 +294,24 @@ nav .navLine {
 }
 .home .form .cal .cal-out {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .form .cal .cal-out .label-out {
+  font-size: 18px;
+  font-family: GSlight;
+  width: 100px;
 }
 .home .form .cal .cal-out input {
   height: 58px;
-  width: 698px;
   border: 2px solid;
   border-color: #79ADDC;
   padding-left: 20px;
-  margin-left: 41px;
   font-size: 18px;
   font-family: GSlight;
+  justify-self: stretch;
+  margin-left: 46px;
 }
 .home .form .cal .cal-out .cal-box {
   width: 30px;
@@ -474,7 +485,6 @@ nav .navLine {
     padding-left: 20px;
     font-size: 18px;
     font-family: GSlight;
-    background-color: greenyellow;
   }
   .home .form .form-slotA {
     width: 100%;
@@ -496,35 +506,30 @@ nav .navLine {
   .home .form label {
     font-size: 18px;
     font-family: GSlight;
-    width: 100px;
-    background-color: blueviolet;
   }
   .home .form .cal {
     width: 100%;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: darkgray;
   }
   .home .form .cal .cal-in {
     position: relative;
     margin-bottom: 20px;
+    display: flex;
   }
-  .home .form .cal .cal-in .labels {
+  .home .form .cal .cal-in .label-in {
     font-size: 18px;
     font-family: GSlight;
-    width: 20%;
-    background-color: brown;
+    min-width: 100px;
+    align-self: center;
   }
   .home .form .cal .cal-in input {
     height: 58px;
-    width: 80%;
     border: 2px solid;
     border-color: #79ADDC;
     padding-left: 20px;
     font-size: 18px;
     font-family: GSlight;
-    background-color: burlywood;
-    justify-self: flex-end;
+    justify-self: stretch;
   }
   .home .form .cal .cal-in .cal-box {
     width: 30px;
@@ -537,16 +542,23 @@ nav .navLine {
   }
   .home .form .cal .cal-out {
     position: relative;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  .home .form .cal .cal-out .label-out {
+    font-size: 18px;
+    font-family: GSlight;
+    min-width: 100px;
+    align-self: center;
   }
   .home .form .cal .cal-out input {
     height: 58px;
-    width: 282px;
     border: 2px solid;
     border-color: #79ADDC;
     padding-left: 20px;
-    margin-left: 41px;
     font-size: 18px;
     font-family: GSlight;
+    justify-self: stretch;
   }
   .home .form .cal .cal-out .cal-box {
     width: 30px;
@@ -585,10 +597,9 @@ nav .navLine {
     margin-left: 0;
   }
   .home .form .message {
-    width: 402px;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 37px;
-    margin-left: 10px;
   }
   .home .form .submit-button {
     width: 80%;

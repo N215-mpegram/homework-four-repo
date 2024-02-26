@@ -214,25 +214,42 @@
         }
 
         .cal {
-            // position: relative;
-            padding-bottom: 20px;
+            width: 100%;
+            align-items: center;
+            margin-bottom: 20px;
+            // background-color: darkgray;
 
             .cal-in {
-                position: relative;
-                // background-color: darkgray;
+                position: relative; 
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
                 margin-bottom: 20px;
-
-                input {
-                   height: 58px;
-                   width: 698px;
-                   border: 2px solid;
-                   border-color: $site-blue;
-                   padding-left: 20px;
-                   margin-left: 53px;
-                   font-size: 18px;
-                   font-family: GSlight;
-               }
-                .cal-box {
+                
+    
+                .label-in {
+                    font-size: 18px;
+                    font-family: GSlight;
+                    width: 100px;
+                    // background-color: brown;
+                    // margin: 0 auto;
+                }
+       
+                   input {
+                    height: 58px;
+                    //    width: 85%;
+                       border: 2px solid;
+                       border-color: $site-blue;
+                       padding-left: 20px;
+                    //    margin-right: 0;
+                       font-size: 18px;
+                       font-family: GSlight;
+                    //    background-color: burlywood;
+                       justify-self: stretch;
+                       margin-left: 46px;
+    
+                  }
+                  .cal-box {
                     width: 30px;
                     height: 30px;
                     // background-color: darkolivegreen;
@@ -242,20 +259,36 @@
                     color: black;
                     font-size: 25px;
                 }
-           }
+              }
    
            .cal-out {
-            position: relative;
+            position: relative; 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+
+            .label-out {
+                font-size: 18px;
+                font-family: GSlight;
+                width: 100px;
+                // background-color: brown;
+                // margin: 0 auto;
+            }
    
                input {
-                  height: 58px;
-                  width: 698px;
-                  border: 2px solid;
-                  border-color: $site-blue;
-                  padding-left: 20px;
-                  margin-left: 41px;
-                  font-size: 18px;
-                  font-family: GSlight;
+                height: 58px;
+                //    width: 85%;
+                   border: 2px solid;
+                   border-color: $site-blue;
+                   padding-left: 20px;
+                //    margin-right: 0;
+                   font-size: 18px;
+                   font-family: GSlight;
+                //    background-color: burlywood;
+                   justify-self: stretch;
+                   margin-left: 46px;
+
               }
               .cal-box {
                 width: 30px;
@@ -476,7 +509,7 @@
                 padding-left: 20px;
                 font-size: 18px;
                 font-family: GSlight;
-                background-color: greenyellow;
+                // background-color: greenyellow;
             }
 
     
@@ -504,42 +537,43 @@
             label {
                 font-size: 18px;
                 font-family: GSlight;
-                width: 100px;
-                background-color: blueviolet;
+                // width: 100px;
+                // background-color: blueviolet;
             }
     
             .cal {
                 width: 100%;
-                // display: flex;
                 align-items: center;
-                justify-content: space-evenly;
                 // margin-bottom: 20px;
-                background-color: darkgray;
+                // background-color: darkgray;
                 
     
                 .cal-in {
                     position: relative;
                     // background-color: darkgray;
                     margin-bottom: 20px;
+                    display: flex;
 
-                    .labels {
+                    .label-in {
                         font-size: 18px;
                         font-family: GSlight;
-                        width: 20%;
-                        background-color: brown;
+                        min-width: 100px;
+                        // background-color: brown;
+                        // margin: 0 auto;
+                        align-self: center;
                     }
     
                     input {
                        height: 58px;
-                       width: 80%;
+                    //    width: 85%;
                        border: 2px solid;
                        border-color: $site-blue;
                        padding-left: 20px;
                     //    margin-right: 0;
                        font-size: 18px;
                        font-family: GSlight;
-                       background-color: burlywood;
-                       justify-self: flex-end;
+                    //    background-color: burlywood;
+                       justify-self: stretch;
                    }
                     .cal-box {
                         width: 30px;
@@ -555,18 +589,33 @@
        
                .cal-out {
                 position: relative;
-       
-                   input {
-                      height: 58px;
-                      width: 282px;
-                      border: 2px solid;
-                      border-color: $site-blue;
-                      padding-left: 20px;
-                      margin-left: 41px;
-                      font-size: 18px;
-                      font-family: GSlight;
-                  }
-                  .cal-box {
+                // background-color: darkgray;
+                margin-bottom: 20px;
+                display: flex;
+
+                .label-out {
+                    font-size: 18px;
+                    font-family: GSlight;
+                    // width: 15%;
+                    min-width: 100px;
+                    // background-color: brown;
+                    // margin: 0 auto;
+                    align-self: center;
+                }
+
+                input {
+                   height: 58px;
+                //    width: 85%;
+                   border: 2px solid;
+                   border-color: $site-blue;
+                   padding-left: 20px;
+                //    margin-right: 0;
+                   font-size: 18px;
+                   font-family: GSlight;
+                //    background-color: burlywood;
+                   justify-self: stretch;
+               }
+                .cal-box {
                     width: 30px;
                     height: 30px;
                     // background-color: darkolivegreen;
@@ -576,7 +625,7 @@
                     color: black;
                     font-size: 25px;
                 }
-              }
+           }
     
     
             }
@@ -616,10 +665,9 @@
             }
     
             .message {
-                width: 402px;
+                width: 100%;
                 margin-top: 20px;
                 margin-bottom: 37px;
-                margin-left: 10px;
             }
     
             .submit-button {
@@ -632,7 +680,6 @@
                 border-radius: 30px;
                 margin: 0 auto;
                 margin-bottom: 100px;
-                // margin-left: 161px;
             }
     
         }

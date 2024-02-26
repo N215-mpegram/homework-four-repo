@@ -3,15 +3,9 @@
  padding: 0;
  box-sizing: border-box;
 }
-html {
-    height: 100%;
-    width: auto;
-    background-color: darkkhaki;
-}
-body {
+html, body {
  height: 100%;
- width: 100%;
-//  background-color: green;
+
 }
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
