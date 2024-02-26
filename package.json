@@ -1,7 +1,7 @@
 {
-  "name": "my-first-repo-mp",
+  "name": "homework-four-repo",
   "version": "1.0.0",
-  "description": "This is my first repo in N215.",
+  "description": "This is my homework 4 repo for N215.",
   "main": "index.js",
   "scripts": {
     "compile": "sass scss/styles.scss css/styles.css -w",
