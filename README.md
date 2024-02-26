@@ -1,6 +1,6 @@
 # Homework 4 Repo
 
-This is my first repo in N215.
+This is my homework-four repo for N215.
 
 ## Underneath is my hw4 link
 
