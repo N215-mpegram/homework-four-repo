@@ -392,10 +392,10 @@
 
 @media all and (max-width: 920px) {
 .app {
-    max-width: 422px;
+    width: 100%;
 }
     .home {
-        // max-width: 422px;
+       width: 100%;
         // background-color: aquamarine;
 
         .hero {
@@ -412,7 +412,7 @@
                 
     
                 .call-text {
-                    width: 316px;
+                    max-width: 30%;
                     min-height: 46px;
                     text-align: center;
                     margin: auto;
@@ -434,7 +434,7 @@
         }
 
         .specials {
-            width: $app-content-width;
+            // width: $app-content-width;
             flex-direction: column;
             // background-color: cornflowerblue;
             
