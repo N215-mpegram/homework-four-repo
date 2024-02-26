@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
-html, body {
+html {
   height: 100%;
+  width: auto;
+  background-color: darkkhaki;
+}
+
+body {
+  height: 100%;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -38,7 +45,7 @@ nav .logo {
   background-size: cover;
 }
 nav .links {
-  width: 499px;
+  width: 55%;
   height: 22px;
   display: flex;
   align-items: center;
@@ -52,7 +59,7 @@ nav .navLine {
 @media all and (max-width: 1050px) {
   nav {
     height: 65px;
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -107,7 +114,7 @@ nav .navLine {
   margin-top: 90px;
 }
 .home .specials {
-  width: 818px;
+  max-width: 818px;
   margin: -50px auto 0 auto;
   display: flex;
   align-items: center;
@@ -222,11 +229,11 @@ nav .navLine {
 }
 .home .form .padding1 {
   height: 20px;
-  width: 818px;
+  width: 100%;
 }
 .home .form .padding2 {
   height: 37px;
-  width: 818px;
+  width: 100%;
 }
 .home .form input {
   height: 58px;
@@ -389,7 +396,7 @@ nav .navLine {
   padding-bottom: 140px;
 }
 .home .form .submit-button {
-  width: 800px;
+  width: 80%;
   height: 60px;
   display: flex;
   align-items: center;
@@ -400,15 +407,13 @@ nav .navLine {
   margin-bottom: 100px;
 }
 
-@media all and (max-width: 920px) {
-  .app {
-    width: 100%;
-  }
+@media all and (max-width: 980px) {
   .home {
     width: 100%;
   }
   .home .hero {
     height: 500px;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -445,49 +450,81 @@ nav .navLine {
     margin-bottom: 30px;
   }
   .home .header {
+    width: 90%;
     margin-top: 58px;
     margin-bottom: 33px;
     text-align: center;
   }
+  .home .form {
+    width: 90%;
+    background-color: chocolate;
+    margin: auto;
+  }
+  .home .form .padding1 {
+    display: none;
+  }
+  .home .form .padding2 {
+    display: none;
+  }
+  .home .form input {
+    height: 58px;
+    width: 100%;
+    border: 2px solid;
+    border-color: #79ADDC;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: GSlight;
+    background-color: greenyellow;
+  }
   .home .form .form-slotA {
+    width: 100%;
     height: 312px;
     position: relative;
     justify-content: left;
-    margin-left: 10px;
   }
   .home .form .form-slotA .form-box1 {
-    width: 400px;
+    width: 100%;
     height: 58px;
     margin-bottom: 20px;
   }
   .home .form .form-slotA .form-box2 {
     margin-left: 0;
-    width: 400px;
+    width: 100%;
     height: 58px;
     margin-bottom: 20px;
   }
   .home .form label {
     font-size: 18px;
     font-family: GSlight;
+    width: 100px;
+    background-color: blueviolet;
   }
   .home .form .cal {
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 10px;
+    background-color: darkgray;
   }
   .home .form .cal .cal-in {
     position: relative;
     margin-bottom: 20px;
   }
+  .home .form .cal .cal-in .labels {
+    font-size: 18px;
+    font-family: GSlight;
+    width: 20%;
+    background-color: brown;
+  }
   .home .form .cal .cal-in input {
     height: 58px;
-    width: 282px;
+    width: 80%;
     border: 2px solid;
     border-color: #79ADDC;
     padding-left: 20px;
-    margin-left: 53px;
     font-size: 18px;
     font-family: GSlight;
+    background-color: burlywood;
+    justify-self: flex-end;
   }
   .home .form .cal .cal-in .cal-box {
     width: 30px;
@@ -526,6 +563,7 @@ nav .navLine {
     flex-direction: column;
     justify-content: left;
     margin-bottom: 20px;
+    margin-left: 3px;
   }
   .home .form .ACR .adults {
     display: flex;
@@ -553,21 +591,19 @@ nav .navLine {
     margin-left: 10px;
   }
   .home .form .submit-button {
-    width: 100px;
+    width: 80%;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: #79ADDC;
     border-radius: 30px;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 100px;
-    margin-left: 161px;
   }
 }
 footer {
   background-color: #79ADDC;
-  width: 100%;
   height: 100px;
 }
 footer .footer-content {
@@ -604,13 +640,13 @@ footer .footer-content .socials .socialIcons {
   color: white;
 }
 
-@media all and (max-width: 920px) {
+@media all and (max-width: 980px) {
   footer {
     background-color: #79ADDC;
-    width: 100%;
     height: 100px;
   }
   footer .footer-content {
+    width: 90%;
     height: 100%;
     margin: auto;
     display: flex;

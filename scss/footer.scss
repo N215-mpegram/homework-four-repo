@@ -1,6 +1,6 @@
 footer {
     background-color: $site-blue;
-    width: 100%;
+    // width: 100%;
     height: 100px;
     
     .footer-content {
@@ -43,13 +43,14 @@ footer {
     }
 }
 
-    @media all and (max-width: 920px) {
+    @media all and (max-width: 980px) {
     footer {
         background-color: $site-blue;
-        width: 100%;
+        // width: 100%;
         height: 100px;
         
         .footer-content {
+            width: 90%;
             height: 100%;
             margin: auto;
             display: flex;

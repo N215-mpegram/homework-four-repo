@@ -27,7 +27,7 @@ nav {
     }
 
     .links {
-        width: 499px;
+        width: 55%;
         height: 22px;
         // background-color: antiquewhite;
         display: flex;
@@ -46,7 +46,7 @@ nav {
 @media all and (max-width: 1050px) {
   nav {
     height: 65px;
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     // background-color: #000;
     display: flex;
