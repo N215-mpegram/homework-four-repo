@@ -49,10 +49,10 @@ nav .navLine {
   height: 22px;
 }
 
-@media all and (max-width: 920px) {
+@media all and (max-width: 1050px) {
   nav {
     height: 65px;
-    max-width: 980px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -68,8 +68,6 @@ nav .navLine {
     font-size: 15px;
   }
   nav .logo {
-    width: 46px;
-    height: 21px;
     margin-left: 10px;
   }
   nav .links {
@@ -404,7 +402,10 @@ nav .navLine {
 
 @media all and (max-width: 920px) {
   .app {
-    max-width: 422px;
+    width: 100%;
+  }
+  .home {
+    width: 100%;
   }
   .home .hero {
     height: 500px;
@@ -418,7 +419,7 @@ nav .navLine {
     text-align: center;
   }
   .home .hero .callout .call-text {
-    width: 316px;
+    max-width: 360px;
     min-height: 46px;
     text-align: center;
     margin: auto;
@@ -435,20 +436,20 @@ nav .navLine {
     margin-top: 90px;
   }
   .home .specials {
-    width: 422px;
     flex-direction: column;
+    width: 100%;
+    height: 980px;
+    margin: -50px auto 0 auto;
   }
   .home .specials .boxs {
     margin-bottom: 30px;
   }
   .home .header {
-    width: 422px;
     text-align: center;
     margin-top: 58px;
     margin-bottom: 33px;
   }
   .home .form .form-slotA {
-    width: 422px;
     height: 312px;
     position: relative;
     justify-content: left;
@@ -470,7 +471,6 @@ nav .navLine {
     font-family: GSlight;
   }
   .home .form .cal {
-    width: 422px;
     align-items: center;
     justify-content: space-evenly;
     margin-left: 10px;
@@ -613,7 +613,6 @@ footer .footer-content .socials .socialIcons {
   footer .footer-content {
     height: 100%;
     margin: auto;
-    width: 422px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

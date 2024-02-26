@@ -43,10 +43,10 @@ nav {
 
 }
 
-@media all and (max-width: 920px) {
+@media all and (max-width: 1050px) {
   nav {
     height: 65px;
-    max-width: $content-width;
+    width: 90%;
     margin: 0 auto;
     // background-color: #000;
     display: flex;
@@ -63,8 +63,7 @@ nav {
       font-size: 15px;
       }  
       .logo {
-        width: 46px;
-        height: 21px;
+
         margin-left: 10px;
       }
       .links {
