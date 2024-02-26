@@ -329,6 +329,9 @@ nav .navLine {
 }
 .home .form .ACR .adults {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .home .form .ACR .adults input {
   height: 58px;
@@ -350,6 +353,9 @@ nav .navLine {
 }
 .home .form .ACR .children {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .home .form .ACR .children input {
   height: 58px;
@@ -396,15 +402,18 @@ nav .navLine {
   padding-top: 20px;
   margin-bottom: 37px;
 }
-.home .form .message input {
+.home .form .message .mes-box {
   height: 192px;
+  width: 100%;
+  padding-bottom: 130px;
+}
+.home .form .message .mes-box input {
   width: 100%;
   border: 2px solid;
   border-color: #79ADDC;
   padding-left: 20px;
   font-size: 18px;
   font-family: GSlight;
-  padding-bottom: 140px;
 }
 .home .form .submit-button {
   width: 80%;
@@ -573,15 +582,15 @@ nav .navLine {
     width: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
     margin-bottom: 20px;
-    margin-left: 3px;
+    background-color: burlywood;
   }
   .home .form .ACR .adults {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin-left: 0px;
     margin-bottom: 10px;
+    background-color: cadetblue;
   }
   .home .form .ACR .children {
     display: flex;
@@ -589,17 +598,33 @@ nav .navLine {
     justify-content: space-between;
     margin-left: 0;
     margin-bottom: 10px;
+    background-color: cadetblue;
   }
   .home .form .ACR .rooms {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 0;
+    background-color: cadetblue;
   }
   .home .form .message {
     width: 100%;
-    margin-top: 20px;
+    height: 192px;
+    padding-top: 20px;
     margin-bottom: 37px;
+  }
+  .home .form .message .mes-box {
+    height: 192px;
+    width: 100%;
+    padding-bottom: 130px;
+  }
+  .home .form .message .mes-box input {
+    width: 100%;
+    border: 2px solid;
+    border-color: #79ADDC;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: GSlight;
   }
   .home .form .submit-button {
     width: 80%;
