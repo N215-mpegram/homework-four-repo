@@ -19,13 +19,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid #fff;
   position: relative;
   z-index: 99;
 }
 nav a {
   text-decoration: none;
-  color: #fff;
   font-family: GSmedreg;
   font-size: 15px;
 }
@@ -57,13 +55,11 @@ nav .navLine {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #fff;
     position: relative;
     z-index: 99;
   }
   nav a {
     text-decoration: none;
-    color: #fff;
     font-family: GSmedreg;
     font-size: 15px;
   }
@@ -734,6 +730,15 @@ footer .footer-content .socials .socialIcons {
   font-family: GSitalic;
   src: url(../fonts/Gill\ Sans\ Italic.otf);
 }
+.Nav-White {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.Font-nav-W {
+  color: #fff;
+}
+
 .font1 {
   font-family: GSmedreg;
   font-size: 15px;
